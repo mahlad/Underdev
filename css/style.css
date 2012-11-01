@@ -17,13 +17,16 @@ div.out{
 	position: fixed;
 	z-index: -999;
 }
+/*----------About----------*/
 div.about{
 	width: 100%;
 	height: 150px;
 	border-width: 1px 0 1px 0;
 	border-style:dotted;
 	border-color: #fff;
-	margin-top: 100px;
+	top: 100px;
+	position: relative;
+	z-index: 5;
 }
 /***********VIDEO************/
 div.video-bg{

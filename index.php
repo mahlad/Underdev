@@ -14,7 +14,7 @@
 	<div class="container">
 		<?php 
 			include 'about.php';
-			include 'formsendmail.php';
+			//include 'formsendmail.php';
 		 ?>
 		 <div class="video-bg">
 			<video preload="none" autoplay="autoplay" loop="loop">
