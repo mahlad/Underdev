@@ -3,5 +3,17 @@
  * Copyright (c) 2012, Prime Developers (info@primede.ir)
  * http://opensource.org/licenses/MIT
  */
-/*Global Section
-------------------------------*/
+/*----------Global Section----------*/
+body{
+
+}
+div.out{
+	background: url(../images/Lotus1.jpg) no-repeat;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	background-size:100% 100%;
+	position: fixed;
+	z-index: -999;
+}
