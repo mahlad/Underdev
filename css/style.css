@@ -20,23 +20,22 @@ div.out{
 /*----------About----------*/
 div.about{
 	width: 100%;
-	height: 150px;
+	height: 165px;
 	border-width: 1px 0 1px 0;
 	border-style:dotted;
 	border-color: #fff;
 	top: 100px;
 	position: relative;
 	z-index: 5;
+	padding: 0 30px;
 }
 div.about table{
 	position: relative;
 	width: 100%;
 	top: 0;
-	border:1px dotted #fff;
 }
-div.about table th,div.about table td{
-	
-	outline:1px dotted #fff;
+div.about table td{
+	padding: 0 10px;
 }
 div.about table th p{
 	color: #fff;
@@ -51,13 +50,24 @@ div.about table tr td a{
 	padding: 10px;
 	display: block;
 }
+div.about table tr td a:hover{
+	text-decoration: underline;
+	color: #666;
+}
 div.about table tr td p{
 	color: #fff;
 	padding: 10px;
 	display: block;
 }
-div.icon{
-
+td.icon{
+	width: 50px;
+	padding-left: 10px;
+}
+td.icon img{
+	margin: 0 auto;
+}
+td.icon img.email{
+	margin-left: 7px;
 }
 /***********VIDEO************/
 div.video-bg{
