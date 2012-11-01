@@ -12,15 +12,14 @@
 <body>
 	<div class="out"></div>
 	<div class="container">
-	<?php 
-	
-	include 'mod-contact.php';
-	 ?>
-	 <div class="video-bg">
-		<video preload="none" autoplay="autoplay" loop="loop">
-			<source src="http://themeflava.com/hotpixels/wp-content/uploads/2012/10/GrassAndRain.webm">
-		</video>
+		<?php 
+			include 'mod-contact.php';
+		 ?>
+		 <div class="video-bg">
+			<video preload="none" autoplay="autoplay" loop="loop">
+				<source src="http://themeflava.com/hotpixels/wp-content/uploads/2012/10/GrassAndRain.webm">
+			</video>
+		</div>
 	</div>
-	 </div>
 </body>
 </html>
