@@ -42,7 +42,6 @@ section.designform{
 	position: fixed;
 	z-index: 5;
 }
-section.designform from.form-design input{
+section.designform input{
 	display: block;
-
 }
