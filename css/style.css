@@ -38,6 +38,9 @@ div.video-bg video{
 	z-index: -900;
 }
 /****************FORM************/
+section.designform{
+	z-index: 5;
+}
 section.designform from.form-design input{
 	display: block;
 

@@ -14,6 +14,7 @@
 	<div class="container">
 		<?php 
 			include 'mod-contact.php';
+			include 'formsendmail.php';
 		 ?>
 		 <div class="video-bg">
 			<video preload="none" autoplay="autoplay" loop="loop">
