@@ -28,6 +28,37 @@ div.about{
 	position: relative;
 	z-index: 5;
 }
+div.about table{
+	position: relative;
+	width: 100%;
+	top: 0;
+	border:1px dotted #fff;
+}
+div.about table th,div.about table td{
+	
+	outline:1px dotted #fff;
+}
+div.about table th p{
+	color: #fff;
+	font-weight:bold;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 10px;
+}
+div.about table tr td a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+div.about table tr td p{
+	color: #fff;
+	padding: 10px;
+	display: block;
+}
+div.icon{
+
+}
 /***********VIDEO************/
 div.video-bg{
 	position: fixed;
