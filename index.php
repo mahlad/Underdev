@@ -11,8 +11,11 @@
 </head>
 <body>
 	<div class="out"></div>
+	<div class="container">
 	<?php 
+	
 	include 'mod-contact.php';
 	 ?>
+	 </div>
 </body>
 </html>
