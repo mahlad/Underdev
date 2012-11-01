@@ -25,3 +25,15 @@ div.contact{
 	border-color: #fff;
 	margin-top: 100px;
 }
+/***********VIDEO************/
+div.video-bg{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+div.video-bg video{
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -900;
+}

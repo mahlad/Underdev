@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>UnderDev</title>
 	<link rel="stylesheet" href="css/1styles.css"/>
 	<link rel="stylesheet" href="css/style.css">
@@ -16,6 +16,11 @@
 	
 	include 'mod-contact.php';
 	 ?>
+	 <div class="video-bg">
+		<video preload="none" autoplay="autoplay" loop="loop">
+			<source src="http://themeflava.com/hotpixels/wp-content/uploads/2012/10/GrassAndRain.webm">
+		</video>
+	</div>
 	 </div>
 </body>
 </html>
