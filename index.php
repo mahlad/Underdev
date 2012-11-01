@@ -14,6 +14,7 @@
 	<div class="container">
 		<?php 
 			include 'about.php';
+			include 'project.php';
 			//include 'formsendmail.php';
 		 ?>
 		 <div class="video-bg">
