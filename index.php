@@ -13,7 +13,7 @@
 	<div class="out"></div>
 	<div class="container">
 		<?php 
-			include 'mod-contact.php';
+			include 'about.php';
 			include 'formsendmail.php';
 		 ?>
 		 <div class="video-bg">
