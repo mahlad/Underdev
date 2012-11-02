@@ -7,14 +7,7 @@
 		body {
 			background-color: #F4F4F4;
 		}
-
-		.ok {
-			color:#23B3AB;
-		}
-
-		.err {
-			color:#BD5B3D;
-		}
+		
 	</style>
 </head>
 <body>

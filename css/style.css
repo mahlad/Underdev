@@ -178,3 +178,16 @@ section.designform{
 section.designform input{
 	display: block;
 }
+
+#ifrm{
+	width: 315px;
+	height: 0;
+	border: 0 none;
+}
+
+.ok {
+	background-color:#23B3AB;
+}
+.err {
+	background-color:#BD5B3D;
+}
