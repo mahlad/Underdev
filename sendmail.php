@@ -25,9 +25,9 @@
 					"mydomain.com contact : $subject",
 					$text)
 			){
-				echo '<h2 class="ok">Mail sent</h2>';
+				echo '<h4 class="ok">Mail sent</h4>';
 			}else{
-				echo '<h2 class="err">Error in sending mail.</h2>';
+				echo '<h4 class="err">Error in sending mail.</h4>';
 			}
 		}else{
 			echo '<h2 class="err">Access Restricted !</h2>';

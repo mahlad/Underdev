@@ -165,7 +165,7 @@ section.designform{
 	z-index:5;
 	top:-390px;
 	left: -800px;
-	width:120px;
+	width:150px;
 	margin:0 auto;
 	border:1px solid #fff;
 	border-radius:10px;
@@ -182,6 +182,24 @@ section.designform input{
 	margin-bottom: 5px;
 }
 
+section.designform input#name{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:115px -2px;
+}
+
+section.designform input#subject{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:115px -22px;
+}
+
+section.designform textarea#txt{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:115px -40px;
+}
+
 section.designform textarea{
 	float: right;
 	margin-bottom: 5px;
@@ -190,8 +208,21 @@ section.designform a.contact{
 	position: absolute;
 	width:51px;
 	height:50px;
-	top: 80px;
-	left: 150px;
+	top: 70px;
+	left: 180px;
+}
+
+.text{
+	border: 1px solid white;
+	border-left: 1px solid #B2B2B2;
+	border-top: 1px solid #B2B2B2;
+	border-radius: 3px;
+	outline: none;
+	background-color: #E7E7E7;
+	padding: 3px;
+	padding-right: 23px;
+	width: 110px;
+	-webkit-transition: all 0.8s;
 }
 #ifrm{
 	width: 315px;
