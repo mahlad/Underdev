@@ -17,7 +17,6 @@
 		<?php 
 			include 'about.php';
 			include 'project.php';
-			include 'formsendmail.php';
 		 ?>
 		 <div class="video-bg">
 			<video preload="none" autoplay="autoplay" loop="loop">
@@ -25,5 +24,10 @@
 			</video>
 		</div>
 	</div>
-</body>
+	<div class="total">
+	<?php 
+		include 'formsendmail.php';
+	?>
+	</div>
+	</body>
 </html>

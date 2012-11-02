@@ -5,7 +5,10 @@
  */
 /*----------Global Section----------*/
 body{
+}
 
+div.total{
+	position: absolute;
 }
 div.out{
 	background: url(../images/Lotus1.jpg) no-repeat;
@@ -163,8 +166,9 @@ div.video-bg video{
 section.designform{
 	position:relative;
 	z-index:5;
-	top:-390px;
-	left: -812px;
+	top:-300px;
+	left:-182px;
+	/*left: -812px;*/
 	width:150px;
 	margin:0 auto;
 	border:1px solid #fff;
@@ -205,11 +209,12 @@ section.designform textarea{
 	margin-bottom: 5px;
 }
 section.designform a.contact{
-	position: absolute;
+	position: relative;
 	width:51px;
 	height:50px;
-	top: 70px;
-	left: 180px;
+	top:-70px;
+	left:165px;
+	/*left: 180px;*/
 }
 
 .text{

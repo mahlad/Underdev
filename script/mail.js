@@ -6,18 +6,18 @@ function validateText(str,len){
 $(function(){
 	var 
 		formdesign = $('section.designform'),
-		contact = $('div.container a.contact'),
+		contact = $('div.total a.contact'),
 		flag = false;
 	contact.click(function(){
 		if (!flag) {
 			flag = true;
 			formdesign.animate({
-				left:-630
+				left:0
 			},300);
 		}else{
 			flag = false;
 			formdesign.animate({
-				left:-812
+				left:-185
 			},300);
 		}
 	});
