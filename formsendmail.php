@@ -1,4 +1,4 @@
-<a href="#" class="contact btn">Contact</a>
+<!--<a href="#" class="contact btn">Contact</a>-->
 <section class="designform">
 	<form action="sendmail.php" id="form-design" class="form-design" method="post" target="ifrm">
 		<input type="text" name="name" id="name" placeholder="نام" />

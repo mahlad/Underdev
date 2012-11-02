@@ -10,29 +10,30 @@ function validateEmail(str){
 }
 
 $(function(){
-	// var closeform = $('section.designform  a.close'),
-	// 	formdesign = $('section.designform'),
-	// 	contact = $('div.container a.contact');
-	// closeform.click(function(){
-	// 	contact.animate({opacity:1},200);
-	// 	formdesign.animate({
-	// 		top:-390
-	// 	},500);
-	// });
-	// contact.click(function(){
-	// 	$(this).animate({opacity:0},500);
-	// 	formdesign.animate({
-	// 		top:-10
-	// 	},500);
-	// });
+	var 
+		formdesign = $('section.designform'),
+		contact = $('div.container a.contact'),
+		flag = false;
+	contact.click(function(){
+		if (!flag) {
+			flag = true;
+			formdesign.animate({
+				left:-530
+			},300);
+		}else{
+			flag = false;
+			formdesign.animate({
+				left:-650
+			},300);
+		}
+	});
+
 	$('#form-design').submit(function(){
 		var target, err = false;
 		target = $('#name');
 		if( validateText(target.val(),3) ){
-
 			target.removeClass('err').addClass('ok');
 		}else{
-			alert(12);
 			target.removeClass('ok').addClass('err');
 			err = true;
 		}

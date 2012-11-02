@@ -164,7 +164,7 @@ section.designform{
 	position:relative;
 	z-index:5;
 	top:-390px;
-	left: -600px;
+	left: -650px;
 	width:120px;
 	margin:0 auto;
 	border:1px solid #fff;
@@ -184,7 +184,6 @@ section.designform input{
 	height: 0;
 	border: 0 none;
 }
-
 .ok {
 	background-color:#23B3AB;
 }
