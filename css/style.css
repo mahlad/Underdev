@@ -164,7 +164,7 @@ section.designform{
 	position:relative;
 	z-index:5;
 	top:-390px;
-	left: -645px;
+	left: -780px;
 	width:120px;
 	margin:0 auto;
 	border:1px solid #fff;
@@ -176,6 +176,7 @@ section.designform{
 	padding:15px 15px;
 	direction: rtl;
 }
+
 section.designform input{
 	display: block;
 	margin-bottom: 5px;
@@ -184,6 +185,11 @@ section.designform input{
 section.designform textarea{
 	float: right;
 	margin-bottom: 5px;
+}
+section.designform a.contact{
+	position: absolute;
+	top: 80px;
+	left: 140px;
 }
 #ifrm{
 	width: 315px;

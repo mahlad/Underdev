@@ -18,12 +18,12 @@ $(function(){
 		if (!flag) {
 			flag = true;
 			formdesign.animate({
-				left:-530
+				left:-660
 			},300);
 		}else{
 			flag = false;
 			formdesign.animate({
-				left:-645
+				left:-780
 			},300);
 		}
 	});

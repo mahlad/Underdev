@@ -1,4 +1,3 @@
-<!--<a href="#" class="contact btn">Contact</a>-->
 <section class="designform">
 	<form action="sendmail.php" id="form-design" class="form-design" method="post" target="ifrm">
 		<input type="text" name="name" id="name" placeholder="نام" />
@@ -6,6 +5,6 @@
 		<textarea cols="20" rows="4" id="txt" name="txt" placeholder="متن"></textarea>
 		<input type="submit" name="submit" value="ارسال پیام" />
 	</form>
-	<a href="#" class="contact btn">Contact</a>
+	<a href="#" class="contact">Contact</a>
 	<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 </section>
