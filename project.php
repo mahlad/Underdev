@@ -1,5 +1,7 @@
 <div class="project">
 	<h1>Our Projects</h1>
+	<br/>
+	<h1>*********</h1>
 	<div class="bigtxt absolute">
 		<section class="right">
 			<img src="" alt="">
@@ -25,8 +27,9 @@
 			<p>graphic cooperation and marketting institute </p>
 			<a href="http://ekbatane.com" title="">ekbatane.com</a>
 		</section>
-				
+		<div class="cover"></div>
 	</div>
+
 	<div class="next butn absolute"></div>
 	<div class="prev butn absolute"></div>
 </div>
