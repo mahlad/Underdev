@@ -12,12 +12,12 @@ $(function(){
 		if (!flag) {
 			flag = true;
 			formdesign.animate({
-				left:-620
+				left:-630
 			},300);
 		}else{
 			flag = false;
 			formdesign.animate({
-				left:-800
+				left:-812
 			},300);
 		}
 	});

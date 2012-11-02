@@ -164,7 +164,7 @@ section.designform{
 	position:relative;
 	z-index:5;
 	top:-390px;
-	left: -800px;
+	left: -812px;
 	width:150px;
 	margin:0 auto;
 	border:1px solid #fff;
@@ -185,19 +185,19 @@ section.designform input{
 section.designform input#name{
 	background-image:url("../images/name.png");
 	background-repeat:no-repeat;
-	background-position:115px -2px;
+	background-position:135px -2px;
 }
 
 section.designform input#subject{
 	background-image:url("../images/name.png");
 	background-repeat:no-repeat;
-	background-position:115px -22px;
+	background-position:135px -22px;
 }
 
 section.designform textarea#txt{
 	background-image:url("../images/name.png");
 	background-repeat:no-repeat;
-	background-position:115px -40px;
+	background-position:135px -40px;
 }
 
 section.designform textarea{
@@ -220,18 +220,21 @@ section.designform a.contact{
 	outline: none;
 	background-color: #E7E7E7;
 	padding: 3px;
-	padding-right: 23px;
-	width: 110px;
+	padding-right: 20px;
+	width: 130px;
 	-webkit-transition: all 0.8s;
 }
+
 #ifrm{
 	width: 315px;
 	height: 0;
 	border: 0 none;
 }
+
 .ok {
 	background-color:#23B3AB;
 }
+
 .err {
 	background-color:#BD5B3D;
 }
