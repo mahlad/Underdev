@@ -164,7 +164,7 @@ section.designform{
 	position:relative;
 	z-index:5;
 	top:-390px;
-	left: -650px;
+	left: -645px;
 	width:120px;
 	margin:0 auto;
 	border:1px solid #fff;
@@ -174,11 +174,17 @@ section.designform{
 	font-size:11px;
 	font-family:Arial, Helvetica, sans-serif;
 	padding:15px 15px;
+	direction: rtl;
 }
 section.designform input{
 	display: block;
+	margin-bottom: 5px;
 }
 
+section.designform textarea{
+	float: right;
+	margin-bottom: 5px;
+}
 #ifrm{
 	width: 315px;
 	height: 0;

@@ -23,7 +23,7 @@ $(function(){
 		}else{
 			flag = false;
 			formdesign.animate({
-				left:-650
+				left:-645
 			},300);
 		}
 	});
