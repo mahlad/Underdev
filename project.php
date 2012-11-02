@@ -27,7 +27,7 @@
 			<p>graphic cooperation and marketting institute </p>
 			<a href="http://ekbatane.com" title="">ekbatane.com</a>
 		</section>
-		<div class="cover"></div>
+		
 	</div>
 
 	<div class="next butn absolute"></div>
