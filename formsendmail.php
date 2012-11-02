@@ -4,6 +4,7 @@
 		<input type="text" name="subject" id="subject" placeholder="موضوع" class="text" />
 		<textarea cols="20" rows="4" id="txt" name="txt" placeholder="متن" class="text"></textarea>
 		<input type="submit" name="submit" value="ارسال پیام" />
+		<input type="reset" name="reset" id="reset" value="پاک کردن فرم" />
 	</form>
 	<a href="#" class="contact"><img src="images/ddd.png" /></a>
 	<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>

@@ -56,4 +56,12 @@ $(function(){
 
 		return !err;
 	});
+	$('#form-design #reset').click(function(){
+		$('#ifrm').animate({
+			height:'0px'
+		},200);
+		$('#txt').removeClass('ok').removeClass('err');
+		$('#name').removeClass('ok').removeClass('err');
+		$('#subject').removeClass('ok').removeClass('err');
+	});
 });

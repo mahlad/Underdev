@@ -3,11 +3,6 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Sending mail ...</title>
-	<style type="text/css">
-		body {
-			background-color: #F4F4F4;
-		}
-	</style>
 </head>
 <body>
 	<?php
@@ -25,12 +20,12 @@
 					"mydomain.com contact : $subject",
 					$text)
 			){
-				echo '<h4 class="ok">Mail sent</h4>';
+				echo '<div style="margin-left:160px"><h4 class="ok">Mail sent</h4></div>';
 			}else{
-				echo '<h4 class="err">Error in sending mail.</h4>';
+				echo '<div style="margin-left:160px"><h4 class="err">Error in sending mail.</h4></div>';
 			}
 		}else{
-			echo '<h2 class="err">Access Restricted !</h2>';
+			echo '<div style="margin-left:160px"><h4 class="err">Access Restricted !</h4></div>';
 		}
 	?>
 </body>
