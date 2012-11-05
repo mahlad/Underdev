@@ -18,10 +18,10 @@ $(function(){
 			}).animate({
 				height:200,
 				 
-			},100);
-			formdsg.css({
-				'display' : 'block'
-			});
+			},200);
+			// formdsg.css({
+			// 	'display' : 'block'
+			// });
 
 		}else{
 			flag = false;
@@ -29,9 +29,9 @@ $(function(){
 				height : 0,
 				padding : 0
 			},200);
-			formdsg.css({
-				'display' : 'none'
-			});
+			// formdsg.css({
+			// 	'display' : 'none'
+			// });
 		}
 
 	});

@@ -176,6 +176,7 @@ section.designform {
 	width:150px;
 	height: 0px;
 	margin:0 auto;
+	overflow: hidden;
 	/*border:1px solid #fff;
 	border-radius:10px;
 	padding:15px 15px;*/
@@ -187,9 +188,9 @@ section.designform {
 	direction: rtl;
 }
 
-section.designform form{
+/*section.designform form{
 	display: none;
-}
+}*/
 section.designform input{
 	display: block;
 	margin-bottom: 5px;
