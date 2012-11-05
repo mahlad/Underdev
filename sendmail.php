@@ -20,12 +20,12 @@
 					"mydomain.com contact : $subject",
 					$text)
 			){
-				echo '<div style="margin-left:160px"><h4 class="ok">Mail sent</h4></div>';
+				echo '<div style="margin-left:160px"><h5 class="ok">Mail sent</h5></div>';
 			}else{
-				echo '<div style="margin-left:160px"><h4 class="err">Error in sending mail.</h4></div>';
+				echo '<div style="margin-left:160px"><h5 class="err">Error in sending mail.</h5></div>';
 			}
 		}else{
-			echo '<div style="margin-left:160px"><h4 class="err">Access Restricted !</h4></div>';
+			echo '<div style="margin-left:160px"><h5 class="err">Access Restricted !</h5></div>';
 		}
 	?>
 </body>

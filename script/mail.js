@@ -7,19 +7,33 @@ $(function(){
 	var 
 		formdesign = $('section.designform'),
 		contact = $('div.total a.contact'),
+		formdsg = $('section.designform form'),
 		flag = false;
 	contact.click(function(){
 		if (!flag) {
 			flag = true;
-			formdesign.animate({
-				left:0
-			},300);
+			formdesign.css({
+				'border-radius':'10px',
+				 padding : 15,
+			}).animate({
+				height:200,
+				 
+			},100);
+			formdsg.css({
+				'display' : 'block'
+			});
+
 		}else{
 			flag = false;
 			formdesign.animate({
-				left:-185
-			},300);
+				height : 0,
+				padding : 0
+			},200);
+			formdsg.css({
+				'display' : 'none'
+			});
 		}
+
 	});
 
 	$('#form-design').submit(function(){
