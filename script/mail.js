@@ -19,19 +19,12 @@ $(function(){
 				height:200,
 				 
 			},200);
-			// formdsg.css({
-			// 	'display' : 'block'
-			// });
-
 		}else{
 			flag = false;
 			formdesign.animate({
 				height : 0,
 				padding : 0
 			},200);
-			// formdsg.css({
-			// 	'display' : 'none'
-			// });
 		}
 
 	});

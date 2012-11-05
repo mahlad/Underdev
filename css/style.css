@@ -188,9 +188,6 @@ section.designform {
 	direction: rtl;
 }
 
-/*section.designform form{
-	display: none;
-}*/
 section.designform input{
 	display: block;
 	margin-bottom: 5px;
