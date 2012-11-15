@@ -5,7 +5,12 @@
  */
 /*----------Global Section----------*/
 body{
+}
 
+div.total{
+	position: absolute;
+	top: 0;
+	left: 10px;
 }
 div.out{
 	background: url(../images/Lotus1.jpg) no-repeat;
@@ -160,10 +165,93 @@ div.video-bg video{
 	z-index: -900;
 }
 /****************FORM************/
-section.designform{
-	position: fixed;
-	z-index: 5;
+section.designform {
+	position:relative;
+	z-index:5;
+	top: 0px;
+	left: 0px;	
+	/*top:-300px;
+	left:-182px;
+	*/
+	width:150px;
+	height: 0px;
+	margin:0 auto;
+	overflow: hidden;
+	/*border:1px solid #fff;
+	border-radius:10px;
+	padding:15px 15px;*/
+	background-color:#f4f4f4;
+	box-shadow:0 0 20px #666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	direction: rtl;
 }
+
 section.designform input{
 	display: block;
+	margin-bottom: 5px;
+}
+
+section.designform input#name{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:135px -2px;
+}
+
+section.designform input#subject{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:135px -22px;
+}
+
+section.designform textarea#txt{
+	background-image:url("../images/name.png");
+	background-repeat:no-repeat;
+	background-position:135px -40px;
+}
+
+section.designform textarea{
+	float: right;
+	margin-bottom: 5px;
+}
+a.contact{
+	position: relative;
+/*	width:51px;
+	height:50px;*/
+	top: 0px;
+	left: 60px;
+	/*top:-70px;
+	left:165px;*/
+}
+
+.text{
+	border: 1px solid white;
+	border-left: 1px solid #B2B2B2;
+	border-top: 1px solid #B2B2B2;
+	border-radius: 3px;
+	outline: none;
+	background-color: #E7E7E7;
+	padding: 3px;
+	padding-right: 20px;
+	width: 130px;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+#ifrm{
+	width: 315px;
+	height: 0;
+	border: 0 none;
+}
+
+.ok {
+	background-color:#23B3AB;
+}
+
+.err {
+	background-color:#BD5B3D;
 }
